@@ -1,5 +1,4 @@
-<?php 
- $datos = explode(" ", trim(fgets(STDIN)));?>
+<?php $datos = explode(" ", trim(fgets(STDIN)));?>
 Se han introducido <?php echo count($datos); ?> numeros
 <?php if (count($datos)<2):?>
 Argumentos insuficientes 
